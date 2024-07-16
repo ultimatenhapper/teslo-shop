@@ -10,7 +10,6 @@ export default function Home() {
     <>
       <Title title="Tienda" subtitle="Todos los productos" />
       <ProductGrid products={products} />
-      <Sidebar />
     </>
   );
 }

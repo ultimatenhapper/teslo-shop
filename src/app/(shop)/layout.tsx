@@ -1,4 +1,5 @@
 import { TopMenu } from "@/components";
+import Sidebar from "@/components/ui/sidebar/Sidebar";
 import React from "react";
 
 const ShopLayout = ({ children }: { children: React.ReactNode }) => {
@@ -6,6 +7,7 @@ const ShopLayout = ({ children }: { children: React.ReactNode }) => {
     <main className="min-h-screen">
       <TopMenu />
       <div className="px-0 sm:px-10">{children}</div>
+      <Sidebar />
     </main>
   );
 };
