@@ -7,7 +7,7 @@ interface Props {
   className?: string;
 }
 
-const Title = ({ title, subtitle, className }: Props) => {
+export const Title = ({ title, subtitle, className }: Props) => {
   return (
     <div className={`mt-3 ${className}`}>
       <h1
@@ -19,5 +19,3 @@ const Title = ({ title, subtitle, className }: Props) => {
     </div>
   );
 };
-
-export default Title;

@@ -1,5 +1,5 @@
 import { ProductGrid } from "@/components";
-import Title from "@/components/ui/title/Title";
+import { Title } from "@/components";
 import { initialData } from "@/seed/seed";
 import { ValidCategories } from "@/interfaces";
 import { notFound } from "next/navigation";

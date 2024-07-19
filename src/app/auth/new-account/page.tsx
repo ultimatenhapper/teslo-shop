@@ -7,10 +7,10 @@ export default function LoginPage() {
       <h1 className={`${titleFont.className} text-4xl mb-5`}>Ingresar</h1>
 
       <div className="flex flex-col">
-        <label htmlFor="email">Correo electrónico</label>
+        <label htmlFor="email">Nombre completo</label>
         <input
           className="px-5 py-2 border bg-gray-200 rounded mb-5"
-          type="email"
+          type="text"
         />
 
         <label htmlFor="email">Contraseña</label>
@@ -28,8 +28,8 @@ export default function LoginPage() {
           <div className="flex-1 border-t border-gray-500"></div>
         </div>
 
-        <Link href="/auth/new-account" className="btn-secondary text-center">
-          Crear una nueva cuenta
+        <Link href="/auth/login" className="btn-secondary text-center">
+          Ingresar
         </Link>
       </div>
     </main>
